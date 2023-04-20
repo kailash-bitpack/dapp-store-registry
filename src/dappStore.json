@@ -21,39 +21,7 @@
       "storeKey": "reeshi.dappstore",
       "dappId": "io.floornfts.dapp",
       "fields": {
-        "image": {
-          "logo": "https://bafybeie2i527b7w6xrded4ozwv5km66ozi6e5xcs3vt74lnvikkwyjz2lm.ipfs.dweb.link/logo.png",
-          "banner": "https://bafybeie2i527b7w6xrded4ozwv5km66ozi6e5xcs3vt74lnvikkwyjz2lm.ipfs.dweb.link/banner.png",
-          "screenshots": [
-            {
-              "index": 1,
-              "value": "https://bafybeie2i527b7w6xrded4ozwv5km66ozi6e5xcs3vt74lnvikkwyjz2lm.ipfs.dweb.link/sc-1-and_play_1d.png"
-            },
-            {
-              "index": 0,
-              "value": "https://bafybeie2i527b7w6xrded4ozwv5km66ozi6e5xcs3vt74lnvikkwyjz2lm.ipfs.dweb.link/sc-2-and_play_1c.png"
-            }
-          ]
-        },
-        "description": "this is testing",
-        "minAge": 6,
-        "isForMatureAudience": true,
-        "tags": [
-          "nfts",
-          "trading"
-        ],
-        "geoRestrictions": {
-          "blockedCountries": [
-            "ru"
-          ]
-        }
-      }
-    },
-    {
-      "storeKey": "reeshi.dappstore",
-      "dappId": "io.floornfts.dapp",
-      "fields": {
-        "image": {
+        "images": {
           "banner": "https://bafybeie2i527b7w6xrded4ozwv5km66ozi6e5xcs3vt74lnvikkwyjz2lm.ipfs.dweb.link/banner.png",
           "screenshots": [
             {
@@ -76,7 +44,31 @@
           "blockedCountries": [
             "ru"
           ]
-        }
+        },
+        "image": {
+          "banner": "https://bafybeie2i527b7w6xrded4ozwv5km66ozi6e5xcs3vt74lnvikkwyjz2lm.ipfs.dweb.link/banner.png",
+          "screenshots": [
+            {
+              "index": 1,
+              "value": "https://bafybeie2i527b7w6xrded4ozwv5km66ozi6e5xcs3vt74lnvikkwyjz2lm.ipfs.dweb.link/sc-1-and_play_1d.png"
+            },
+            {
+              "index": 0,
+              "value": "https://bafybeie2i527b7w6xrded4ozwv5km66ozi6e5xcs3vt74lnvikkwyjz2lm.ipfs.dweb.link/sc-2-and_play_1c.png"
+            }
+          ]
+        },
+        "description": "anything",
+        "screenshots": [
+          {
+            "index": 1,
+            "value": "https://bafybeie2i527b7w6xrded4ozwv5km66ozi6e5xcs3vt74lnvikkwyjz2lm.ipfs.dweb.link/sc-1-and_play_1d.png"
+          },
+          {
+            "index": 0,
+            "value": "https://bafybeie2i527b7w6xrded4ozwv5km66ozi6e5xcs3vt74lnvikkwyjz2lm.ipfs.dweb.link/sc-2-and_play_1c.png"
+          }
+        ]
       }
     }
   ]
